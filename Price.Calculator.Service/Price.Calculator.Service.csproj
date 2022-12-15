@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Price.Calculator.Common\Price.Calculator.Common.csproj" />
+    <ProjectReference Include="..\Price.Calculator.Interfaces\Price.Calculator.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
